@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Binding</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-auto">
+                <input type="checkbox" name="typeVideo" id="typeVideo" data-check="typeVideo" data-hidden="fontProperties">
+                <label for="typeVideo">Personalizate Font</label>
+            </div>
+        </div>
+        <div id="fontProperties" class="row" hidden>
+            <div class="col-auto">
+                <input type="text" name="font" id="font" placeholder="font">
+                <label for="font"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <input type="checkbox" name="test3" id="test3" data-check="test3">
+                <label for="test3">Test 3</label>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./src/js/jquery.3.6.js"></script>
+    <script src="./src/js/script.js" type="module"></script>
+</body>
+</html>
